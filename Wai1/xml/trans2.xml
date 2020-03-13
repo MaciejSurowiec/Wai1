@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="trans2.xslt"?>
+
+<main>
+  <author>
+    <name>Maciek</name>
+    <surname>Surowiec</surname>
+  </author>
+  
+  <content id="content">
+    
+    <list>
+      <element>
+        <name>IPA</name>
+        <procent>0.05</procent>
+      </element>
+      
+      <element>
+        <name>APA</name>
+        <procent>0.06</procent>
+      </element>
+      
+      <element>
+        <name>Porter</name>
+        <procent>0.09</procent>
+      </element>
+      
+      <element>
+        <name>Ris</name>
+        <procent>0.11</procent>
+      </element>
+
+      <element>
+        <name>Lager Europejski</name>
+        <procent>0.04</procent>
+      </element>
+
+      <element>
+        <name>Witbier</name>
+        <procent>0.036</procent>
+      </element>
+
+      <element>
+        <name>Stout</name>
+        <procent>0.076</procent>
+      </element>
+
+      <element>
+        <name>Porter Bałtycki</name>
+        <procent>0.096</procent>
+      </element>
+    </list>
+    
+    <title>Piwa</title>
+
+    <styl class="Styl" kind="Ale" id="1">
+      <media>
+        <img source="../img/apa.jpg" hover="APA" class="szdj"></img>
+      </media>
+      <text class="tekst">
+        American Pale Ale. Jasne, lekkie, szczodrze nachmielone, przeważnie dość goryczkowe i bardzo aromatyczne piwo górnej fermentacji . APA nie są piwami mocnymi, to raczej lekkie i orzeźwiające pozycje. Goryczka w tym stylu także nie powinna wykręcać języka i twarzy w grymasie.
+        APA występują oczywiście w różnych wariantach i podzielić je możemy ze względu na kraj pochodzenia użytych odmian chmielu. Na tablicy w pubie czy na etykiecie możecie więc odnaleźć: New Zealand Pale Ale (NZPA), Polish Pale Ale (PPA), English Pale Ale (EPA) czy Australian Pale Ale. Ilu piwowarów, tyle pomysłów. Do dyspozycji są przecież chmiele Słoweńskie, Francuskie, Niemieckie, Japońskie czy z RPA.
+      </text>
+    </styl>
+
+    <styl class="Styl"  kind="Ale" id="2">
+      <media>
+        <img source="../img/ipa.jpg" hover="IPA" class="szdj"></img>
+      </media>
+      <text class="tekst">
+        Piwo górnej fermentacji z mocnym chmielowym aromatem i w związku z tym, również bardzo charakterystycznym posmakiem goryczki. To piwo powstało po to, żeby mieszkańcy brytyjskich kolonii mogli orzeźwić się w upalne dni. Tradycyjne brytyjskie piwa źle znosiły długie podróże statkami i nawet na najszybszych kliprach potrafiły się zepsuć zanim trafiły na stoły w Indiach. Na szczęście brytyjscy piwowarzy wiedzieli, że chmiel ma właściwości konserwujące i dlatego uwarzyli dla swoich rodaków mieszkających za oceanem piwo z odpowiednio większą dawką szyszek chmielowych. To był strzał w dziesiątkę. Takie piwo bez problemu znosiło dalekie podróże.
+      </text>
+    </styl>
+
+    <styl class="Styl"  kind="Lager" id="3">
+      <media>
+        <img source="../img/porter.jpg" hover="Porter Bałtycki" class="szdj"></img>
+      </media>
+      <text class="tekst">
+        Porter bałtycki powstał z połączenia dwóch stylów: koźlaka dubeltowego i angielskiego Imperial Stout na przełomie XIX i XX wieku. Ze względu jednak na wówczas powszechną już dostępność dolnej fermentacji, porter bałtycki wytwarzany był przy użyciu drożdży dolnej fermentacji. W smaku i aromacie wyczuwalna jest słodowa słodycz z nutami karmelu, toffi, orzecha, ale w cechach drugorzędowych możliwe są również estry takich owoców jak suszone śliwki, rodzynki, wiśnie, czarna porzeczka. Dodatek słodów ciemnych nadaje piwu również aromatu i smaku kawy, czekolady, melasy – nigdy jednak nie powinny być wyczuwalne nuty bardzo palone i kwaśne. Duża moc alkoholu powinna pełnić rolę rozgrzewającą, wyraźnie wyczuwalny ostry alkohol lub nieprzyjemna alkoholowa lub palona goryczka są wadą. Porter bałtycki powinien być gładki i łagodny w smaku z dobrze zbalansowanym słodko-wytrawnym finiszem z domieszką wiodącej nuty zapachowo-smakowej. Dobre portery bałtyckie cechuje złożony, wielowarstwowy, ale dobrze zharmonizowany smak. Są treściwe i słodowe z nieznaczną ilością wyczuwalnego chmielu. Warzone są z użyciem słodu pilzneńskiego, monachijskiego, barwiącego i karmelowego. W kolorze porter bałtycki jest niemal czarny z brązową, bardzo obfitą i trwałą pianą. Polskie portery bałtyckie należą nie tylko do najlepszych przedstawicieli gatunku, ale również do najtęższych i najmocniejszych. Tradycyjnie zawierają one w Polsce 22% e.w. i do 9,5% alk.
+      </text>
+    </styl>
+
+
+    <informations>
+      <links>
+        <link source="https://www.ratebeer.com/">Ratebeer</link>
+        <link source="https://birofilia.org/">Birofilia</link>
+        <link source="https://blog.kopyra.com/">Blog Piwny Tomasza Kopyry</link>
+      </links>
+    </informations>
+  </content>
+  <footer>
+   
+  </footer>
+</main>

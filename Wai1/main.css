@@ -1,0 +1,409 @@
+html, body {
+    background-color: #cdb9ac;
+    color: #0f0b08;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: large;
+    scroll-behavior: smooth;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+footer {
+    height: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    padding-top:5px;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+}
+
+#wrapper {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    min-height: calc(100% - 150px);
+    display:table;
+}
+
+header {
+    height: 100px;
+    background: #4c392d;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    padding:1%;
+    overflow: hidden;
+    margin: 0% auto 1% auto;
+    height:50px;
+
+}
+
+    nav ul li {
+        display: inline;
+        overflow: hidden;
+        margin: 1% auto 1% auto;
+        
+    }
+
+    nav ul {
+       
+        width: 80%;
+        margin-right: 0px;
+        list-style-type: none;
+        padding-top:1%;
+        padding-bottom:1%;
+        overflow:hidden;
+        
+    }
+
+#content {
+    width: 85%;
+    position: relative;
+    margin-top:auto;
+    background: #706056;
+    padding: 2%;
+    padding-bottom: 20%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px;
+    padding: 0.5%;
+    margin: 4% 0 4% 0;
+    border: 1px solid #684d3b;
+    background: #9e8879;
+    font-size: 80%;
+   
+}
+    a:hover {
+        color: antiquewhite;
+        background: #a1826c;
+        
+    }
+
+#tlo{
+   width:100%;   
+   margin:auto;
+  
+}
+.zdj{
+    width:100%;
+
+}
+
+.Styl {
+    width: 80%;
+    margin:auto;
+    background-color: #887162;
+    border-top: 2px groove #684d3b;
+    padding: 1%;
+    border-radius: 25px;
+    margin-top:2%;
+    position: relative;
+    overflow:hidden;
+}
+
+.szdj {
+    display:none;
+}
+
+.tekst {
+    width: 80%;
+    padding: 2%;
+    margin: 1% auto 1% auto;
+    background-color: antiquewhite;
+    border: 2px solid #4c392d;
+    
+}
+
+    .tekst a {
+        color: #684d3b;
+        font-weight: bold;
+        background: none;
+        padding: 0;
+        margin: 0px;
+        border: 0;
+        font-size: large;
+    }
+
+        .tekst a:hover {
+            font-style: normal;
+            color: #000;
+            background: none;
+            padding: 0;
+            margin: 0;
+        }
+
+#schowek{
+    width:100px;
+    float:right;
+    height:40px;
+}
+
+#czas{
+    color:#ffffff;
+    font-size:14px;
+    float:left;
+    align-content:center;
+}
+
+h1{
+    color:#ffffff;
+}
+
+h2{
+    text-align:center;
+    margin:0;
+}
+
+.text {
+    width: 94%;
+    padding: 2%;
+    margin: 5% auto 1% auto;
+    background-color: antiquewhite;
+    border: 2px solid #4c392d;
+}
+
+.text a {
+    color: #684d3b;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    margin: 0px;
+    border: 0;
+    font-size: large;
+}
+
+    .text a:hover {
+        font-style: normal;
+        color: #000;
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+
+#dialog{
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+    margin:auto;
+    top:100px;
+}
+
+.pok {
+    width: 100%;
+    height:100%;
+    background-color: #FFF;
+    opacity: 0.95;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #9e8879;
+    border: 1px solid #684d3b;
+}
+
+
+.container:hover input ~ .checkmark {
+    background-color: #cdb9ac;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #4c392d;
+    border: 1px solid #0f0b08;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #0f0b08;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+#tab {
+    width: 94%;
+    padding: 1%;
+    margin: 1% auto 1% auto;
+    border: 1px solid #0f0b08;
+    background-color: #4c392d;
+   
+    text-align: center;
+}
+
+
+
+.Wit {
+    background-color: #ffff99;
+}
+
+.IPA {
+    background-color:#ffdb3b;
+}
+
+.APA {
+    background-color: #ffdb4d;
+}
+
+.Lamb {
+    background-color: #ee5028
+}
+.Pils {
+    background-color: #ffff4d;
+}
+
+.Port {
+    background-color: #1a0600;
+    color:white;
+}
+
+.RIS {
+    background-color: #000000;
+    color:white;
+}
+
+@media only screen and (min-width: 1100px) {
+
+    #tab {
+        width: 40%;
+    }
+        #rozwin {
+        visibility: initial;
+        height: 15%;
+        overflow: auto;
+    }
+
+
+    body {
+        font-size: large;
+    }
+
+    
+
+    #content {
+        width: 85%;
+        float: right;
+        overflow: hidden;
+        margin-top: 5px;
+        padding-bottom: 5%;
+        position:inherit;
+    }
+
+    footer {
+        position:initial;
+    }
+
+    nav {
+        width: 20%;
+        float: left;
+        height: 90%;
+        position: fixed;
+        padding-top: 1%;
+        padding-bottom:1%;
+    }
+
+
+    a{
+        padding:5%;
+        margin:0;
+    }
+        nav ul li {
+            display: grid;
+            width: 50%;
+            
+            margin:1%;
+        }
+
+        nav ul{
+            padding:0;
+        }
+    .szdj {
+        margin: 0 0 0 2%;
+        display: initial;
+        width: 200px;
+        height: auto;
+        box-shadow: 0px 0px 5px #0f0b08;
+    }
+
+    .szdj:hover{
+        cursor:zoom-in;
+    }
+
+        .szdj:active {
+            top:2%;
+            width:15%;
+            position:fixed;
+            height:auto;
+        }
+
+    .tekst {
+        float: right;
+        width: 60%;
+        margin: 1% 1% 1% auto;
+ 
+
+    }
+}
+
